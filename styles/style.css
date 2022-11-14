@@ -1,0 +1,55 @@
+body{
+    
+   
+    background-image: linear-gradient( to top, rgb(94, 94, 248), rgb(60, 60, 253), rgb(54, 54, 231) ); 
+
+   
+
+
+   
+}
+.navbar-dark{
+    background-color: red;
+}
+.fundo{
+  
+    height: 100vh;
+    background-image: url("image/patinhas.png");
+      
+    filter: invert(1);
+    background-size: 60px;
+    z-index: 1;
+
+}
+.red{
+    filter: invert(1);
+    z-index: 0;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    background-color: white;
+    margin: 0;
+    position: absolute;               
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.navbar{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+}
+.form-group{
+
+width: 500px;
+
+}
+form{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
